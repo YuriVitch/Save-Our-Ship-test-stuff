@@ -266,10 +266,10 @@ CHECK_RANDOMIZER
 # RULESURL https://shiptest.net/wiki/Rules
 
 ## Github address
-# GITHUBURL https://github.com/Shiptest-SS13/Shiptest
+# GITHUBURL https://github.com/StarStation13/Save-Our-Ship-test
 
 ## Discord address
-# DISCORDURL https://shiptest.net/discord
+# DISCORDURL https://discord.gg/eSAH4XuFDk
 
 ## Map viewer address, will have `?=[map_short_name]` appended to it
 # MAPVIEWERURL https://shiptest.net/map
