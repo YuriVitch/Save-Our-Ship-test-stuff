@@ -20,8 +20,9 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"e" = (
-/obj/effect/decal/cleanable/vomit,
+"c" = (
+/obj/structure/window/reinforced/spawner,
+/obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "j" = (
@@ -32,6 +33,14 @@
 /obj/machinery/computer/cargo/express{
 	dir = 8
 	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"l" = (
+/obj/machinery/holopad/emergency/command,
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"m" = (
+/obj/effect/decal/cleanable/vomit,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "n" = (
@@ -50,7 +59,9 @@
 	dir = 1
 	},
 /obj/machinery/mineral/ore_redemption{
-	dir = 4
+	dir = 4;
+	input_dir = 8;
+	output_dir = 4
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
@@ -69,15 +80,15 @@
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
+"q" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 "r" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
 /obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"t" = (
-/obj/machinery/holopad/emergency/command,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "u" = (
@@ -103,11 +114,6 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"A" = (
-/obj/structure/window/reinforced/spawner,
-/obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "C" = (
@@ -141,10 +147,6 @@
 /obj/structure/window/reinforced/spawner{
 	dir = 1
 	},
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"I" = (
-/obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "J" = (
@@ -229,18 +231,18 @@ E
 "}
 (6,1,1) = {"
 p
-e
+m
 O
 "}
 (7,1,1) = {"
 o
-t
+l
 X
 "}
 (8,1,1) = {"
 H
-I
-A
+q
+c
 "}
 (9,1,1) = {"
 j

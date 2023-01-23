@@ -257,22 +257,22 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL https://shiptest.net/discord
+FORUMURL https://shiptest.net/discord
 
 ## Wiki address
-# WIKIURL https://shiptest.net/wiki/
+WIKIURL https://shiptest.net/wiki/
 
 ## Rules address
-# RULESURL https://shiptest.net/wiki/Rules
+RULESURL https://shiptest.net/wiki/Rules
 
 ## Github address
-# GITHUBURL https://github.com/StarStation13/Save-Our-Ship-test
+GITHUBURL https://github.com/StarStation13/Save-Our-Ship-test
 
 ## Discord address
-# DISCORDURL https://discord.gg/eSAH4XuFDk
+DISCORDURL https://discord.gg/eSAH4XuFDk
 
 ## Map viewer address, will have `?=[map_short_name]` appended to it
-# MAPVIEWERURL https://shiptest.net/map
+MAPVIEWERURL https://shiptest.net/map
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
