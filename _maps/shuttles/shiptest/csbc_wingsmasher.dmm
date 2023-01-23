@@ -172,11 +172,6 @@
 /area/ship/medical)
 "bW" = (
 /obj/structure/rack,
-/obj/item/storage/belt/utility{
-	pixel_y = 4
-	},
-/obj/item/storage/toolbox/mechanical,
-/obj/item/multitool,
 /obj/effect/turf_decal/corner/opaque/mauve/three_quarters{
 	dir = 4
 	},
@@ -184,6 +179,10 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/storage/belt/utility/syndicate{
+	pixel_y = 3
+	},
+/obj/item/storage/toolbox/syndicate,
 /turf/open/floor/plasteel/tech,
 /area/ship/science)
 "bX" = (
@@ -348,6 +347,7 @@
 /obj/machinery/firealarm{
 	pixel_y = 25
 	},
+/obj/item/clothing/head/soft/cybersun,
 /turf/open/floor/plasteel,
 /area/ship/medical)
 "dO" = (
@@ -417,6 +417,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/dark/visible,
+/obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "fH" = (
@@ -461,6 +462,11 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/item/storage/backpack/security,
+/obj/item/radio/headset/syndicate/captain,
+/obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
+/obj/item/clothing/glasses/thermal/syndi,
+/obj/item/gun/ballistic/automatic/pistol/deagle/gold,
 /turf/open/floor/wood/walnut,
 /area/ship/bridge)
 "gv" = (
@@ -594,6 +600,16 @@
 "ji" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/cargo/starboard)
+"jB" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/item/storage/toolbox/syndicate,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
 "jE" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -961,10 +977,11 @@
 "rT" = (
 /obj/item/pipe_dispenser,
 /obj/structure/rack,
-/obj/item/analyzer,
 /obj/effect/turf_decal/corner/transparent/yellow/border{
 	dir = 1
 	},
+/obj/item/storage/toolbox/syndicate,
+/obj/item/analyzer,
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
 "rU" = (
@@ -983,11 +1000,10 @@
 "rX" = (
 /obj/effect/turf_decal/corner_techfloor_grid/diagonal,
 /obj/machinery/suit_storage_unit/inherit/industrial,
-/obj/item/clothing/suit/space/syndicate/surplus,
-/obj/item/clothing/head/helmet/space/syndicate/surplus,
-/obj/item/clothing/mask/gas/syndicate,
 /obj/item/tank/jetpack/oxygen/harness,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/suit/space/hardsuit/cybersun,
+/obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo/starboard)
 "sa" = (
@@ -1125,6 +1141,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/observer_start,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/fore)
 "ub" = (
@@ -1137,6 +1154,10 @@
 	},
 /obj/effect/turf_decal/corner_techfloor_gray{
 	dir = 1
+	},
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -25
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
@@ -1614,6 +1635,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "Bj" = (
@@ -1727,10 +1749,10 @@
 "CM" = (
 /obj/effect/turf_decal/corner_techfloor_grid/diagonal,
 /obj/machinery/suit_storage_unit/inherit/industrial,
-/obj/item/clothing/suit/space/syndicate/surplus,
-/obj/item/clothing/head/helmet/space/syndicate/surplus,
-/obj/item/clothing/mask/gas/syndicate,
 /obj/item/tank/jetpack/oxygen/harness,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/suit/space/hardsuit/cybersun,
+/obj/item/clothing/mask/gas/syndicate,
 /obj/machinery/light,
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo/starboard)
@@ -1915,6 +1937,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/contraband/cybersun{
+	pixel_y = 32
+	},
 /turf/open/floor/plasteel/patterned,
 /area/ship/science)
 "GF" = (
@@ -2193,6 +2218,9 @@
 	pixel_y = 15
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/item/storage/fancy/cigarettes/cigpack_syndicate{
+	pixel_x = -3
+	},
 /turf/open/floor/carpet/red,
 /area/ship/bridge)
 "KO" = (
@@ -2247,6 +2275,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_y = -30
 	},
 /turf/open/floor/plasteel,
 /area/ship/medical)
@@ -2348,6 +2379,9 @@
 "Pb" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 24
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
 "Pj" = (
@@ -2376,6 +2410,9 @@
 /obj/item/stack/sheet/mineral/uranium/twenty,
 /obj/item/stack/sheet/mineral/plasma/fifty,
 /obj/item/stack/sheet/mineral/diamond,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 24
+	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "PM" = (
@@ -2435,6 +2472,9 @@
 /obj/machinery/computer/operating,
 /obj/effect/turf_decal/corner/transparent/bottlegreen/border{
 	dir = 1
+	},
+/obj/structure/sign/poster/contraband/cybersun_med{
+	pixel_y = 32
 	},
 /turf/open/floor/plasteel,
 /area/ship/medical)
@@ -2711,6 +2751,9 @@
 /obj/effect/turf_decal/corner_techfloor_gray{
 	dir = 4
 	},
+/obj/structure/extinguisher_cabinet{
+	pixel_y = -30
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
 "Uu" = (
@@ -2787,6 +2830,9 @@
 "Vp" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
+	},
+/obj/structure/sign/poster/contraband/cybersun_borg{
+	pixel_y = -32
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/medical)
@@ -3077,7 +3123,7 @@ al
 Bx
 ZZ
 ao
-Gx
+jB
 xt
 xt
 Ia
