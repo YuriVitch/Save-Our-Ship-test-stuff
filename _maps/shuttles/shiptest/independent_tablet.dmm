@@ -139,9 +139,6 @@
 "S" = (
 /obj/structure/window/reinforced/spawner,
 /obj/machinery/power/apc/auto_name/west,
-/obj/machinery/power/terminal{
-	dir = 8
-	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
