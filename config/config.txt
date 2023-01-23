@@ -17,16 +17,16 @@ $include atmos_mix.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'Shiptest' with the name of your choice.
-# SERVERNAME Shiptest
+SERVERNAME Save Our Ship Test
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
-# SERVERSQLNAME shiptest
+SERVERSQLNAME shiptest
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+STATIONNAME Save Our Ship Test
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
-#HUB
+HUB
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
 LOBBY_COUNTDOWN 120
@@ -257,22 +257,22 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL https://shiptest.net/discord
+FORUMURL https://shiptest.net/discord
 
 ## Wiki address
-# WIKIURL https://shiptest.net/wiki/
+WIKIURL https://shiptest.net/wiki/
 
 ## Rules address
-# RULESURL https://shiptest.net/wiki/Rules
+RULESURL https://shiptest.net/wiki/Rules
 
 ## Github address
-# GITHUBURL https://github.com/Shiptest-SS13/Shiptest
+GITHUBURL https://github.com/StarStation13/Save-Our-Ship-test
 
 ## Discord address
-# DISCORDURL https://shiptest.net/discord
+DISCORDURL https://discord.gg/eSAH4XuFDk
 
 ## Map viewer address, will have `?=[map_short_name]` appended to it
-# MAPVIEWERURL https://shiptest.net/map
+MAPVIEWERURL https://shiptest.net/map
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
@@ -571,8 +571,8 @@ AUTO_PROFILE
 RESPAWN_TIMER 600
 
 ## Custom shuttle spam prevention. Changine these numbers allows you to change the maxsize and amount of custom shuttles.
-MAX_SHUTTLE_COUNT 20
-MAX_SHUTTLE_SIZE 300
+MAX_SHUTTLE_COUNT 999999
+MAX_SHUTTLE_SIZE 9999999
 
 ### ALL SETTINGS FOR SSmetrics ###
 ## Uncomment the line below to enable SSmetrics sending data to ElasticSearch. You will need to fill in the other lines if you do
