@@ -20,6 +20,10 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
+"e" = (
+/obj/effect/decal/cleanable/vomit,
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 "j" = (
 /obj/structure/window/reinforced/spawner{
 	dir = 1
@@ -62,12 +66,18 @@
 	dir = 2;
 	preferred_direction = 4
 	},
+/obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "r" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"t" = (
+/obj/machinery/holopad/emergency/command,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "u" = (
@@ -80,6 +90,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "w" = (
@@ -92,6 +103,11 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"A" = (
+/obj/structure/window/reinforced/spawner,
+/obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "C" = (
@@ -118,12 +134,17 @@
 /obj/item/tank/internals/oxygen,
 /obj/item/clothing/head/helmet/space,
 /obj/item/clothing/suit/space/eva,
+/obj/item/areaeditor/shuttle,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "H" = (
 /obj/structure/window/reinforced/spawner{
 	dir = 1
 	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"I" = (
+/obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "J" = (
@@ -139,9 +160,6 @@
 "S" = (
 /obj/structure/window/reinforced/spawner,
 /obj/machinery/power/apc/auto_name/west,
-/obj/machinery/power/terminal{
-	dir = 8
-	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
@@ -177,8 +195,9 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/computer/cryopod{
-	pixel_y = -28;
-	dir = 1
+	pixel_y = -22;
+	dir = 1;
+	pixel_x = -3
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
@@ -210,18 +229,18 @@ E
 "}
 (6,1,1) = {"
 p
-w
+e
 O
 "}
 (7,1,1) = {"
 o
-w
+t
 X
 "}
 (8,1,1) = {"
 H
-w
-X
+I
+A
 "}
 (9,1,1) = {"
 j
