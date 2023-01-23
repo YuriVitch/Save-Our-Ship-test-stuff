@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
-	"map_name": "Tablet-class Debt Shuttle",
+	"map_name": "Tablet-class Bed Of Nails",
 	"prefix": "SV",
 	"namelists": ["GENERAL", "SPACE", "NATURAL", "MERCANTILE"],
 	"map_short_name": "Tablet-class",
