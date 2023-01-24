@@ -995,6 +995,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/item/stack/cable_coil/red,
 /turf/open/floor/plasteel/patterned,
 /area/ship/science)
 "rX" = (
@@ -1765,6 +1766,7 @@
 /area/ship/science)
 "DH" = (
 /obj/effect/decal/cleanable/oil,
+/obj/item/storage/box/stockparts/basic,
 /turf/open/floor/plasteel/patterned,
 /area/ship/science)
 "DI" = (
