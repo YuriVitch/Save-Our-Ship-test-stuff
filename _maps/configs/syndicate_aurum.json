@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"prefix": "SSV",
+	"namelists": ["GENERAL", "NATURAL_AGGRESSIVE", "BEASTS", "WEAPONS"],
+	"map_name": "Aurum-class Experimental Mining Shuttle",
+	"map_short_name": "Aurum-class",
+	"map_path": "_maps/shuttles/shiptest/syndicate_aurum.dmm",
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/syndicate/gorlex",
+			"officer": true,
+			"slots": 1
+		},
+		"Mechanic": {
+			"outfit": "/datum/outfit/job/engineer/syndicate/gorlex",
+			"slots": 1
+		},
+		"Ship Doctor":{
+			"outfit": "/datum/outfit/job/doctor/syndicate/nsv",
+			"slots": 2
+		},
+		"Rock Breaker": {
+			"outfit": "/datum/outfit/job/assistant/syndicate/gorlex",
+			"slots": 2
+		}
+	},
+	"enabled": true
+}
