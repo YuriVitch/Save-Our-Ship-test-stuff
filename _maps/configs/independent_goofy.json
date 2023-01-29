@@ -1,0 +1,16 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Goofy-Class Assault On The Mind",
+	"prefix": "SV",
+	"namelists": ["GENERAL", "SPACE"],
+	"map_short_name": "Goofy-class",
+	"map_path": "_maps/shuttles/shiptest/independent_goofy.dmm",
+	"job_slots": {
+		"Clown": {
+			"outfit": "/datum/outfit/job/clown",
+			"officer": true,
+			"slots": 10
+		}
+	},
+	"enabled": true
+}
